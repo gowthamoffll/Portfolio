@@ -62,7 +62,7 @@ const PROJECTS = [
     year: '2025',
     description: 'J.A.R.V.I.S. (Just A Rather Very Intelligent System) A cinematic, full-stack AI assistant application featuring a custom-built Marvel HUD interface. Powered by Google’s Gemini 2.5 Flash model, (voice and text) with (TTS) output.',
     tech: ['Python', 'Streamlit', 'Google Generative AI'],
-    github: 'https://github.com/gowthamoffll/jarvis-mark-80',
+    github: 'https://github.com/gowthamoffll/jarvis-mark-80/',
     live: null,
   },
   {
