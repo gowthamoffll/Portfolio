@@ -57,7 +57,7 @@ const PROJECTS = [
   {
     id: 1,
     featured: true,
-    title: 'jarvis-mark-80',
+    title: 'jarvis-AI',
     category: 'AI',
     year: '2025',
     description: 'J.A.R.V.I.S. (Just A Rather Very Intelligent System) A cinematic, full-stack AI assistant application featuring a custom-built Marvel HUD interface. Powered by Google’s Gemini 2.5 Flash model, (voice and text) with (TTS) output.',
