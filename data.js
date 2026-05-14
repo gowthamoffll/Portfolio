@@ -120,17 +120,17 @@ const PROJECTS = [
     github: 'https://github.com/gowthamoffll/snake-game',
     live: null,
   },
-  // {
-  //   id: 7,
-  //   featured: false,
-  //   title: 'CLI Task Manager',
-  //   category: 'CLI Tool',
-  //   year: '2022',
-  //   description: 'Feature-rich terminal task manager with priority queues, recurring tasks, time tracking, and colorful TUI built with Python and Rich library.',
-  //   tech: ['Python', 'Rich', 'SQLite', 'Click'],
-  //   github: 'https://github.com/yourusername/cli-tasks',
-  //   live: null,
-  // },
+  {
+    id: 7,
+    featured: false,
+    title: 'Swiggy-webpage',
+    category: 'node.js',
+    year: '2026',
+    description: 'A lightweight, full-stack Swiggy clone built with Node.js 22 (using experimental-sqlite), Express 5, and a vanilla JS/CSS frontend. Features JWT authentication, secure password hashing, and a persistent SQLite database.',
+    tech: ['HTML', 'CSS', 'SQLite', 'Node.js'],
+    github: 'https://github.com/gowthamoffll/Swiggy-webpage',
+    live: null,
+  },
 ];
 
 
