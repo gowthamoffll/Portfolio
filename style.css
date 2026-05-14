@@ -665,6 +665,17 @@ ul  { list-style: none; }
 .ach-title  { font-size:1rem; font-weight:700; color:var(--text); margin-bottom:16px; display:flex; align-items:center; gap:8px; }
 .ach-list   { display:flex; flex-direction:column; gap:10px; }
 .ach-item   { font-size:.88rem; color:var(--text2); padding:10px 14px; background:rgba(255,255,255,.02); border-radius:8px; border-left:3px solid rgba(124,58,237,.4); line-height:1.5; transition:var(--t); }
+.cert-link {
+  color: var(--violet);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.cert-link:hover {
+  color: var(--cyan);
+}
 .ach-item:hover { background:rgba(124,58,237,.06); border-left-color:var(--purple); color:#d4d0f5; transform:translateX(4px); }
 
 
