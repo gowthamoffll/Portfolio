@@ -41,6 +41,7 @@ const SKILLS = {
     'Git & GitHub', 'Notepad++',    'Linux',      'VS Code',
     'PyCharm',      'Figma',        'Power BI',   'SQLite',
     'Google Cloud', 'Firebase',     'MS Excel',   'Webpack',
+    'Postman',
   ],
 
   softSkills: [
@@ -112,7 +113,7 @@ const PROJECTS = [
   {
     id: 6,
     featured: false,
-    title: 'Snake-game',
+    title: 'snake-game',
     category: 'Python',
     year: '2026',
     description: 'A retro-inspired Snake game built with Pygame featuring a polished Nokia "greenscreen" aesthetic, smooth animations, and a wrap-around grid system.',
@@ -152,6 +153,7 @@ const INTERNSHIPS = [
     tech: ['VS Code', 'Python', 'ChatGPT', 'Gemini'],
     logo: 'N',
     color: '#4285F4',
+    certificate: 'asset/ai in.jpg',
   },
   {
     id: 2,
@@ -168,6 +170,7 @@ const INTERNSHIPS = [
     tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'React JS'],
     logo: 'I',
     color: '#E32729',
+    certificate: 'asset/web in.jpg',
   },
   {
     id: 3,
@@ -184,5 +187,6 @@ const INTERNSHIPS = [
     tech: ['Python', 'MS Excel', 'Power BI'],
     logo: 'N',
     color: '#00a86b',
+    certificate: 'asset/data in.jpg',
   },
 ];
