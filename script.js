@@ -353,16 +353,13 @@ function renderInternships() {
     <p class="intern-detail-desc">${d.description}</p>
 
     <h4 class="intern-section-title">Key Achievements</h4>
-    <ul class="intern-ach-list">
+    <ul class="ach-list">
       ${d.achievements.map(a => `
-        <li class="intern-ach">
-          <span class="ach-bullet" style="background:${d.color}"></span>
-          ${a}
-        </li>
+        <li class="ach-item">${a}</li>
       `).join('')}
     </ul>
 
-    <h4 class="intern-section-title">Technologies Used</h4>
+    <h4 class="intern-section-title" style="margin-top:24px">Technologies Used</h4>
     <div class="intern-tech-chips">
       ${d.tech.map(t => `
         <span class="intern-tech-chip"
@@ -371,6 +368,17 @@ function renderInternships() {
         </span>
       `).join('')}
     </div>
+
+    ${d.certificate ? `
+    <h4 class="intern-section-title" style="margin-top:24px">Internship Certificate</h4>
+    <ul class="ach-list">
+      <li class="ach-item">
+        📋 ${d.company} –
+        <a href="${d.certificate}" target="_blank" class="cert-link">
+          View Certificate ↗
+        </a>
+      </li>
+    </ul>` : ''}
   `;
 }
 
