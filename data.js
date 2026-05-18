@@ -57,7 +57,7 @@ const SKILLS = {
 const PROJECTS = [
   {
     id: 1,
-    featured: true,
+    featured: false,
     title: 'jarvis-AI',
     category: 'AI',
     year: '2025',
