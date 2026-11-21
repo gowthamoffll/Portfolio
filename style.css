@@ -132,7 +132,8 @@ h1, h2, h3, h4 {
   font-family:var(--ff-mono);
   font-size:2rem; font-weight:700;
   background:linear-gradient(135deg,var(--violet),var(--cyan));
-  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text;
+  background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent;
 }
 .loader-bar {
   width:200px; height:2px;
@@ -391,7 +392,7 @@ h1, h2, h3, h4 {
 .avatar-fallback {
   font-size:4rem; font-weight:800;
   background:linear-gradient(135deg,var(--violet),var(--cyan));
-  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent;
   position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
 }
 .avatar-badge {
@@ -454,7 +455,7 @@ h1, h2, h3, h4 {
 .ac-number {
   font-size:2rem; font-weight:800; letter-spacing:-0.03em;
   background:linear-gradient(135deg,var(--violet),var(--cyan));
-  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent;
   line-height:1;
 }
 .ac-label { font-size:0.72rem; color:var(--muted); font-family:var(--ff-mono); text-transform:uppercase; letter-spacing:0.1em; margin-top:4px; }
